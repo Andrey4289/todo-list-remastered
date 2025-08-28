@@ -4,13 +4,13 @@ import ShareButton from "../ShareButton"
 
 
 
-const TopBar = () => {
+const NavigationHeader = () => {
     return (
-        <div className="top-bar">
+        <div className="navigation-header">
             <Logo/>
             <ShareButton/>
         </div>
     )
 }
 
-export default TopBar;
+export default NavigationHeader;
