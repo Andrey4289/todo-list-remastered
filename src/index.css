@@ -8,12 +8,27 @@
 
 :root {
   /* Colors */
-  --color-bg-primary: #EDF2F9;
-  --color-bg-secondary: #5E6E82;
+  --color-primary: #EDF2F9;
+  --color-secondary: #5E6E82;
+
   --color-white: #FFFFFF;
+  --color-gray: #BCBCBC;
+  --color-black: #000000;
   --color-blue: #5893E2;
   --color-green: #5DC656;
   --color-red: #D83A3A;
+  --color-yellow: #D9C935;
+
+  --color-bg-primary: var(--color-primary);
+  --color-bg-secondary: var(--color-secondary);
+
+  --color-success: var(--color-green);
+  --color-warning: var(--color-yellow);
+  --color-error: var(--color-red);
+  --color-disabled: var(--color-gray);
+
+  --color-text-primary: var(--color-primary);
+  --color-text-secondary: var(--color-secondary);
 
   /* Typography */
   --font-family-primary: 'Bebas Neue';
@@ -21,9 +36,9 @@
   --font-size-md: 16px;
   --font-size-lg: 24px;
   --font-size-xl: 36px;
-  --font-size-xl2: 48px;
-  --font-size-xl3: 72px;
-  --font-size-xl4: 108px;
+  --font-size-xxl: 48px;
+  --font-size-xxl2: 72px;
+  --font-size-xxl3: 108px;
 
   /* Spacing */
   --spacing-xs: 4px;
@@ -31,10 +46,23 @@
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
+  --spacing-xxl: 48px;
 
   /* Layout */
-  --border-radius: 4px;
-  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 6px;
+  --border-radius-xl: 8px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+  /* Breakpoints */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
 }
 
 body {
