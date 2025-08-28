@@ -13,6 +13,7 @@
 
   --color-white: #FFFFFF;
   --color-gray: #BCBCBC;
+  --color-gray-light: #E8E8E8;
   --color-black: #000000;
   --color-blue: #5893E2;
   --color-green: #5DC656;
@@ -35,7 +36,7 @@
   --font-size-sm: 12px;
   --font-size-md: 16px;
   --font-size-lg: 24px;
-  --font-size-xl: 36px;
+  --font-size-xl: 32px;
   --font-size-xxl: 48px;
   --font-size-xxl2: 72px;
   --font-size-xxl3: 108px;
