@@ -21,6 +21,9 @@
 .table td {
   padding: 12px;
   text-align: left; /* or right/center depending on your needs */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .table th {
