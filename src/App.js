@@ -1,6 +1,6 @@
 import './App.css';
 import NavigationHeader from './componenets/NavigationHeader';
-import Container from './componenets/Container';
+import Table from './componenets/Table';
 import CreateButton from "./componenets/CreateButton"
 import Title from "./componenets/Title"
 
@@ -10,7 +10,7 @@ function App() {
       <NavigationHeader/>
       <Title/>
       <CreateButton/>
-      <Container/>
+      <Table/>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import "./index.css"
 
-const Container = () => {
+const Table = () => {
     return (
         <div className=""></div>
     )
 }
 
-export default Container;
+export default Table;
