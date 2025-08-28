@@ -9,10 +9,12 @@
 :root {
   /* Colors */
   --color-primary: #EDF2F9;
+  --color-primary-light: #343849;
   --color-secondary: #5E6E82;
 
   --color-white: #FFFFFF;
   --color-gray: #BCBCBC;
+  --color-gray-light: #F3F3F3;
   --color-black: #000000;
   --color-blue: #5893E2;
   --color-green: #5DC656;
@@ -27,7 +29,7 @@
   --color-error: var(--color-red);
   --color-disabled: var(--color-gray);
 
-  --color-text-primary: var(--color-primary);
+  --color-text-primary: var(--color-primary-light);
   --color-text-secondary: var(--color-secondary);
 
   /* Typography */
@@ -35,7 +37,7 @@
   --font-size-sm: 12px;
   --font-size-md: 16px;
   --font-size-lg: 24px;
-  --font-size-xl: 36px;
+  --font-size-xl: 32px;
   --font-size-xxl: 48px;
   --font-size-xxl2: 72px;
   --font-size-xxl3: 108px;
