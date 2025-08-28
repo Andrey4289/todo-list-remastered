@@ -1,9 +1,9 @@
 import "./index.css"
 
-const TopBar = () => {
+const ShareButton = () => {
     return (
         <div className=""></div>
     )
 }
 
-export default TopBar;
+export default ShareButton;
